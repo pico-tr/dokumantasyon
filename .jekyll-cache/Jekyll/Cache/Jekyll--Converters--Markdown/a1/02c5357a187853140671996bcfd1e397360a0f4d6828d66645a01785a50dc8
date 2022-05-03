@@ -1,0 +1,64 @@
+I"�<h1 id="micropython">MicroPython</h1>
+<p>MicroPython, mikrokontrolcülerde ve kısıtlı ortamlarda çalışmak üzere Python 3.4 üzerine tasarlanan optimize bir uygulamadır.</p>
+
+<p>Temel amacı mikrokontrolcülerde çalışmak olan MicroPython minimum 256KB ROM ve 16KB RAM’e ihtiyaç duymaktadır. Ayrıca <strong>x86, x86-64, ARM, ARM Thumb, Xtensa</strong> gibi pek çok yaygın işlemci mimarisinde de düzgün bir şekilde çalışabilmektedir.</p>
+
+<p>C99 standartları ile yazılan MicroPython’ın çekirdek deposu ise MIT ile lisanslanmıştır.</p>
+
+<h2 id="özellikleri">Özellikleri</h2>
+<ul>
+  <li>Pek çok derleme seçeneği içerir.</li>
+  <li>Başlatma süresi oldukça kısadır.</li>
+  <li>Basit ve güçlü bir bellek yönetimine sahiptir.</li>
+  <li>Bellek kullanımı aşıldığında <em>MemoryError</em> veya <em>RuntimeError</em> hatalarını döndürür.</li>
+  <li>Python kodunu minimal bir biçimde yorumlar.</li>
+  <li>Hata ayıklamak basittir.</li>
+  <li><a href="https://docs.micropython.org/en/latest/library/_thread.html">_thread</a> sınıfı sayesinde birden fazla iş parçacığıyla çalışmak kolaydır.</li>
+  <li>Thumb and Xtensa mimarileri için <a href="https://en.wikipedia.org/wiki/Inline_assembler"><em>inline assembler</em></a> desteği vardır.</li>
+</ul>
+
+<h2 id="micropython-portlarına-sahip-bazı-platformlar">MicroPython Portlarına Sahip Bazı Platformlar</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Platformlar</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><a href="https://www.ti.com/product/CC3200">CC3200</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="http://esp32.net/">ESP32</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="http://esp8266.net/">ESP8266</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf">RP2040</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html">STM32</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="https://www.pjrc.com/teensy/">Teensy</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="https://zephyrproject.org/">Zephyr</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="ekstra-i̇çerikler">Ekstra İçerikler</h3>
+<p>|                                                   İçerikler                                                                            |
+| :————————————————————————————————————————————: |
+| <a href="http://micropython.org/live/">Canlı Test</a>                                                         |
+| <a href="http://docs.micropython.org/en/latest/">Resmi Döküman</a>                                                    |
+| <a href="https://www.youtube.com/watch?v=5LbgyDmRu9s">İnceleme Videosu</a> |</p>
+
+<h3 id="kaynakça">Kaynakça</h3>
+<p>http://micropython.org/</p>
+
+<p>https://github.com/micropython/micropython/tree/master/ports</p>
+:ET
